@@ -5,4 +5,4 @@ services:
     restart: always
     image:  locknew/projectops:latest
     ports:
-      - "8080:3000"
+      - "8085:3000"

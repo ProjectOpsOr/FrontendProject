@@ -2,7 +2,7 @@ name: deploy
 'on':
   push:
     branches:
-      - main
+      - deploy-prod
 jobs:
   docker:
     runs-on: ubuntu-latest
